@@ -1,0 +1,38 @@
+
+/* About */
+.main-body .roadmap #About{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    padding: 0px;
+    margin-left:auto;       
+    width:40%;
+    height:50%;
+    position:absolute;
+    top:15em;
+    right: 10em;
+        
+}
+/* Music/Art */
+.main-body .roadmap #Music{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    padding: 0px;
+    margin-left:auto;
+    width:40%;
+    height:50%;
+    position:absolute;
+    top:30em;
+    right: 15em;
+}
+
+/* Why */
+.main-body .roadmap #Why{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}

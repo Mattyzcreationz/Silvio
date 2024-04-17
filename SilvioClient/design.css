@@ -1,0 +1,259 @@
+/* name-font-headers */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/*  
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+*/
+/* end name-font-headers */
+
+/* Profile */
+.image-circle video {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    right: 66em;
+    top: -4em;
+
+}
+
+video {
+    border-radius: 50%;  
+    position: sticky;
+   z-index: 3;
+}
+
+.image-circle .space{
+    background-color: orange;
+    width: 20%;
+    height: 10%;
+    padding: 11em;
+    position: relative;
+    margin-left: 17%;
+    color: orange;
+    top: 5px;
+    border-radius: 6em;
+}
+/* Creating BannerLayers. */
+/* Banner for Name and Social plats. Gonna end up Slamming the Music into one tab make it pretty later*/
+
+.site-header{
+    padding: 5%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    height: 100%;
+    /*  
+    background-color: hsl(45, 79%, 74%)
+    */
+}
+/* Name - status */
+.site-header .owner{
+    position: relative;
+    right: 40%;
+
+}
+.site-header #Name{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    
+}
+/* main-body background color. */
+
+    .main-body{
+    position: relative;
+    padding-right: 20%;
+    padding-bottom: 50%;
+    bottom: 5em;
+    margin-top: 10%;
+  }
+  .main-body .song-samples {
+    position: absolute;
+    padding: 0;
+    margin-left:auto;
+    width: 40%;
+    height: 50%;
+    right: 22em;    
+    top: 5em;
+    background-color: grey;
+}
+
+/* This would be the container for the banner rotater. */
+/* Spotify, youtube, apple music */
+.main-body .song-samples .song{
+    position:absolute;
+    padding:0;
+    margin-left:auto;
+    width: 40%;
+    height:50%;
+    left: 15em ;
+}
+
+
+/* Designing these items to fit expectations */
+/* youtube snip */
+.main-body .song-samples .song #youtube-snip{
+    position:absolute;
+    padding:0;
+    margin-left:auto;
+    width: 40%;
+    height:50%;
+    top: 200%;
+    left: 5em;
+}
+/* Apple snip */
+.main-body .song-samples .song #apple-snip{
+    position:absolute;
+    padding:0;
+    margin-left:auto;
+    width: 40%;
+    height:50%;
+    top: 200%;
+    left: 12em; 
+}
+/* Spotify-snip */
+.main-body .song-samples .song #spotify-snip{
+    position:absolute;
+    padding:0;
+    margin-left:auto;
+    width: 40%;
+    height:50%;
+    top: 200%;
+    right: 13em ; 
+}
+
+
+
+
+/* avad button Position */
+.main-body .sched #sched{
+    position: absolute;
+    padding: 0;
+    margin-left:auto;
+    width: 40%;
+    height: 50%;
+    right: 12em;    
+    top: 30%;
+    border: none;
+    border-radius: 4px;
+    z-index: 1;
+}
+/* effect*/
+#sched a {
+    border-radius: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    transition: background-color 0.5s, color 0.5s; 
+    border: none; 
+    padding: 6px 28px; 
+    cursor: pointer; 
+}
+
+#sched a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+/* Positon */
+.main-body .sched #specitils{
+    position: absolute;
+    margin-left: auto;
+    width: 20%;
+    height: 50%;
+    right: 15em;    
+    top: 30%;
+    z-index: 2;
+}
+/* Effect */
+#specitils a{
+    border-radius: 20px;
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    transition: background-color 0.5s, color 0.5s; 
+    border: none; 
+    padding: 6px 28px; 
+    cursor: pointer; 
+}
+#specitils a:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    
+}
+
+.main-body .about{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-body .about .welcoming{
+    position:absolute;
+    padding:0;
+    margin-left:auto;
+    width: 40%;
+    height: 40%;
+    left: 40%;
+    top: -2em;
+    z-index: 4;
+    text-align: center;
+}
+
+.main-body .about .nugget{
+    position:absolute;
+    padding:0;
+    margin-left:auto;
+    width: 40%;
+    height: 50%;
+    left: 42%;
+    top: 10%;
+    z-index: 4;
+    text-align: center;
+}   
+
+.site-header .background-label a {
+    text-decoration: none;
+    padding: 7px 7px;
+}
+
+.site-header .background-label .instagram-link{
+    background: -webkit-linear-gradient(right, #833ab4, #fd1d1d, #fcb045);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px; /* Change size as needed */
+    left: 400px;
+    top: 2em;
+    vertical-align: middle;
+    position: absolute;
+}
+.site-header .background-label .spotify-link {
+    color: #1DB954; /* Green */
+
+}
+
+.site-header .background-label .apple-link {
+    color: #999999; /* Gray */
+}
+
+
+.site-header .background-label .soundcloud-link {
+    color: #FF5500; /* Orange */
+}
+
+.site-header .background-label .youtube-link {
+    color: #FF0000; /* Red */
+}
+
+.background-label{
+    margin-left: 30em;
+}
+
+
